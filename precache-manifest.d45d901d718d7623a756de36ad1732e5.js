@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e275b0ea9cd69f78cf10ee4489ef8910",
+    "revision": "5369c88b5e0ec4479c13083f39566b6f",
     "url": "/InGoodHands/index.html"
   },
   {
-    "revision": "feabc81100310ec09d93",
+    "revision": "971d099eb1b6bc6dd233",
     "url": "/InGoodHands/static/css/main.a612992c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/InGoodHands/static/js/2.7a03536d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "feabc81100310ec09d93",
-    "url": "/InGoodHands/static/js/main.2206398d.chunk.js"
+    "revision": "971d099eb1b6bc6dd233",
+    "url": "/InGoodHands/static/js/main.48771a41.chunk.js"
   },
   {
     "revision": "e8a61a11ce341580c68d",

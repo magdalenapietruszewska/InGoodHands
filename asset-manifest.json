@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/InGoodHands/static/css/main.a612992c.chunk.css",
-    "main.js": "/InGoodHands/static/js/main.2206398d.chunk.js",
-    "main.js.map": "/InGoodHands/static/js/main.2206398d.chunk.js.map",
+    "main.js": "/InGoodHands/static/js/main.48771a41.chunk.js",
+    "main.js.map": "/InGoodHands/static/js/main.48771a41.chunk.js.map",
     "runtime-main.js": "/InGoodHands/static/js/runtime-main.133d1a57.js",
     "runtime-main.js.map": "/InGoodHands/static/js/runtime-main.133d1a57.js.map",
     "static/js/2.7a03536d.chunk.js": "/InGoodHands/static/js/2.7a03536d.chunk.js",
     "static/js/2.7a03536d.chunk.js.map": "/InGoodHands/static/js/2.7a03536d.chunk.js.map",
     "index.html": "/InGoodHands/index.html",
-    "precache-manifest.f00f352e7381a31e073c54e9ebe5d210.js": "/InGoodHands/precache-manifest.f00f352e7381a31e073c54e9ebe5d210.js",
+    "precache-manifest.d45d901d718d7623a756de36ad1732e5.js": "/InGoodHands/precache-manifest.d45d901d718d7623a756de36ad1732e5.js",
     "service-worker.js": "/InGoodHands/service-worker.js",
     "static/css/main.a612992c.chunk.css.map": "/InGoodHands/static/css/main.a612992c.chunk.css.map",
     "static/js/2.7a03536d.chunk.js.LICENSE.txt": "/InGoodHands/static/js/2.7a03536d.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.133d1a57.js",
     "static/js/2.7a03536d.chunk.js",
     "static/css/main.a612992c.chunk.css",
-    "static/js/main.2206398d.chunk.js"
+    "static/js/main.48771a41.chunk.js"
   ]
 }
