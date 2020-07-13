@@ -1,0 +1,70 @@
+.aboutUs {
+  display: flex;
+  width: 100%;
+
+  h5 {
+    font-size: 38px;
+    line-height: 55px;
+    margin-top: 185px;
+  }
+}
+
+.happy-group {
+  background-image: url(./../../assets/People.jpg);
+  width: 50%;
+  height: 935px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: $color-second-font;
+  text-align: center;
+
+  p {
+    font-size: 30px;
+    line-height: 55px;
+    max-width: 650px;
+  }
+}
+
+.signature {
+  background-image: url(./../../assets/Signature.svg);
+  width: 210px;
+  height: 150px;
+  align-self: flex-end;
+  margin: 40px 150px 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutUs {
+    flex-direction: column;
+    align-items: center;
+
+    h5 {
+      margin-top: 50px;
+    }
+
+    .about-text {
+      width: 90%;
+    }
+  }
+
+  .signature {
+    margin: 40px 0;
+  }
+
+  .happy-group {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .happy-group {
+    display: none;
+  }
+}

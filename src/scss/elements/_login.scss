@@ -1,0 +1,77 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: 40px;
+    line-height: 55px;
+    margin: 120px 0 10px;
+  }
+}
+
+.log-form {
+  background-color: $color-main-background;
+  padding: 0 70px 40px;
+  margin-top: 70px;
+
+  label {
+    line-height: 85px;
+    color: $color-second-font;
+  }
+
+  input {
+    width: 250px;
+    display: block;
+    background-color: $color-main-background;
+    border: none;
+    border-bottom: 1px solid $color-second-font;
+  }
+
+  p {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+}
+
+.log-btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  font-size: 16px;
+
+  a {
+    text-decoration: none;
+    padding-top: 10px;
+    color: $color-second-accent;
+
+    &:hover {
+      color: $color-font;
+    }
+  }
+
+  button {
+    padding: 15px;
+    background-color: white;
+    color: $color-second-accent;
+    border: 0.75px solid $color-second-accent;
+    font-size: 16px;
+
+    &:hover {
+      background-color: $color-main-accent;
+    }
+  }
+}
+
+.login a {
+  text-decoration: none;
+  padding: 15px;
+  background-color: white;
+  color: $color-second-accent;
+  border: 0.75px solid $color-second-accent;
+
+  &:hover {
+    background-color: $color-main-accent;
+  }
+}

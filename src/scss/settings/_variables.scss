@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+$font-base: 'Open Sans',
+sans-serif;
+$font-alt: 'Merriweather',
+serif;
+
+$color-main-background: #F0F1F1;
+$color-main-accent: #FAD648;
+$color-second-accent: #737373;
+$color-font: #5E5322;
+$color-second-font: #3C3C3C;
+
+%button {
+  font-weight: lighter;
+  font-size: 36px;
+  color: $color-second-font;
+  border: 0.75px solid $color-second-font;
+  background-color: white;
+  cursor: pointer;
+  max-width: 310px;
+  height: 120px;
+  padding: 20px;
+
+  &:hover {
+    background-color: $color-main-accent;
+  }
+}

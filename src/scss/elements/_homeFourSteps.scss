@@ -1,0 +1,91 @@
+.fourSteps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h3 {
+    font-size: 38px;
+    line-height: 55px;
+    text-align: center;
+    margin-top: 55px;
+  }
+
+  button {
+    @extend %button;
+    margin: 35px 0 80px;
+  }
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  background-color: $color-main-background;
+  width: 100%;
+
+  .one-step {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    max-width: 130px;
+    text-align: center;
+  }
+
+  h4 {
+    color: $color-second-font;
+    font-size: 18px;
+    line-height: 24px;
+    border-bottom: 1px solid #707070;
+    padding-bottom: 10px;
+  }
+
+  p {
+    margin: 10px 0 60px;
+    line-height: 15px;
+    color: $color-second-font;
+  }
+}
+
+.t-shirt {
+  background-image: url(./../../assets/Icon-1.svg);
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 85px;
+  color: black;
+  margin: 70px 0 10px;
+}
+
+.bag {
+  @extend .t-shirt;
+  background-image: url(./../../assets/Icon-2.svg);
+}
+
+.loupe {
+  @extend .t-shirt;
+  background-image: url(./../../assets/Icon-3.svg);
+}
+
+.arrow {
+  @extend .t-shirt;
+  background-image: url(./../../assets/Icon-4.svg);
+}
+
+.decoration {
+  margin: 30px 0 45px;
+}
+
+@media screen and (max-width: 950px) {
+  .steps {
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .arrow,
+  .loupe,
+  .t-shirt,
+  .bag {
+    margin-top: 20px;
+  }
+}

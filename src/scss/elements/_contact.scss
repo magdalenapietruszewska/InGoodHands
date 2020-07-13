@@ -1,0 +1,157 @@
+.contact {
+  background-image: url(./../../assets/Background-Contact-Form.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1025px;
+
+  &::after {
+    content: "";
+    display: block;
+    height: 1025px;
+    background: rgba(245, 248, 248, 0.7);
+    position: relative;
+    top: 0;
+  }
+}
+
+.confirm {
+  color: green;
+  font-size: 14px;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.contact-main {
+  float: right;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+
+  h1 {
+    font-size: 38px;
+    line-height: 55px;
+    color: $color-second-font;
+    margin: 145px 0 10px;
+  }
+
+  form {
+    width: 530px;
+    display: flex;
+    flex-direction: column;
+
+    p {
+      color: red;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+
+    input,
+    textarea {
+      background-color: transparent;
+      border: none;
+      border-bottom: 1px solid $color-second-accent;
+    }
+
+    label {
+      font-weight: 600;
+      color: $color-second-font;
+      line-height: 85px;
+    }
+
+    textarea {
+      height: 80px;
+    }
+
+    button {
+      align-self: flex-end;
+      margin-top: 40px;
+      padding: 5px 35px;
+      background-color: transparent;
+      border: 0.75px solid $color-second-font;
+      font-weight: 200;
+      color: #000000;
+      font-size: 18px;
+      line-height: 32px;
+      font-family: $font-base;
+
+      &:hover {
+        background-color: $color-main-accent;
+      }
+    }
+  }
+}
+
+.contact-form-part-one {
+  display: flex;
+
+  input {
+    width: 100%;
+  }
+
+  div:first-child {
+    margin-right: 15px;
+  }
+}
+
+.fb-inst {
+  display: flex;
+  float: right;
+  justify-content: flex-end;
+  width: 530px;
+  margin-top: 250px;
+}
+
+.fb {
+  background-image: url(./../../assets/Facebook.svg);
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+
+}
+
+.inst {
+  @extend .fb;
+  background-image: url(./../../assets/Instagram.svg);
+}
+
+
+@media screen and (max-width: 1100px) {
+  .contact::after {
+    background: rgba(245, 248, 248, 0.8);
+  }
+
+  .contact-main {
+    width: 100%;
+
+    h1 {
+      text-align: center;
+    }
+  }
+}
+
+
+@media screen and (max-width: 580px) {
+
+  .contact-main form {
+    width: 90%;
+  }
+
+  .fb-inst {
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 200px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .contact-main div label {
+    line-height: 35px;
+  }
+}
