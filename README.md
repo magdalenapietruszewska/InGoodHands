@@ -19,5 +19,4 @@ To run this project, install it locally using npm:
 
 
 
-Click here: https://magdalenapietruszewska.github.io/InGoodThings/
-
+Click here: https://magdalenapietruszewska.github.io/InGoodHands/
