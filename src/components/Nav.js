@@ -18,6 +18,7 @@ const Nav = () => {
         setUser(user.email);
       }
     });
+    // eslint-disable-next-line
   }, []);
 
   useEffect(() => {
@@ -30,7 +31,6 @@ const Nav = () => {
 
   const openMenu = () => {
     setShowMenu((prev) => !prev);
-    console.log(showMenu);
   };
 
   const options = {
