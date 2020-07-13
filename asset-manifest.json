@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/InGoodHands/static/css/main.a612992c.chunk.css",
+    "main.js": "/InGoodHands/static/js/main.2206398d.chunk.js",
+    "main.js.map": "/InGoodHands/static/js/main.2206398d.chunk.js.map",
+    "runtime-main.js": "/InGoodHands/static/js/runtime-main.133d1a57.js",
+    "runtime-main.js.map": "/InGoodHands/static/js/runtime-main.133d1a57.js.map",
+    "static/js/2.7a03536d.chunk.js": "/InGoodHands/static/js/2.7a03536d.chunk.js",
+    "static/js/2.7a03536d.chunk.js.map": "/InGoodHands/static/js/2.7a03536d.chunk.js.map",
+    "index.html": "/InGoodHands/index.html",
+    "precache-manifest.f00f352e7381a31e073c54e9ebe5d210.js": "/InGoodHands/precache-manifest.f00f352e7381a31e073c54e9ebe5d210.js",
+    "service-worker.js": "/InGoodHands/service-worker.js",
+    "static/css/main.a612992c.chunk.css.map": "/InGoodHands/static/css/main.a612992c.chunk.css.map",
+    "static/js/2.7a03536d.chunk.js.LICENSE.txt": "/InGoodHands/static/js/2.7a03536d.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/InGoodHands/static/media/Signature.e54cfcfc.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.133d1a57.js",
+    "static/js/2.7a03536d.chunk.js",
+    "static/css/main.a612992c.chunk.css",
+    "static/js/main.2206398d.chunk.js"
+  ]
+}
