@@ -1,13 +1,13 @@
 # In Good Hands:
 
 ## About Project 
-Share your things with people who need it.
+Share your things with people who need it!
 
 ## Technologies
 Project is created with:
-* React
+* React (React Router, React Scroll)
 * JS
-* SCSS
+* CSS (SCSS)
 * Firebase
 
 
